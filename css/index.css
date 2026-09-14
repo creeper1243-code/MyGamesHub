@@ -1,3 +1,14 @@
 .main-container {
-    background-image: linear-gradient( 45deg, #f38ffa, #539eee);
+    background-image: linear-gradient( 45deg, #002503, #002f5c);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-header {
+    font-size: 100px;
+    color: #cacaca;
+    font-weight: bold;
+    transform: scale(1.5);
 }

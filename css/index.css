@@ -10,5 +10,20 @@
     font-size: 100px;
     color: #cacaca;
     font-weight: bold;
-    transform: scale(1.5);
+    transform: translateY(300px);
+}
+
+.main-btn {
+    display: inline-block;
+    transform: translateY(400px);
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+
+}
+
+.main-btn:hover {
+    transform: scale(2) translateY(200px);
+    transition: .2s;
+    box-shadow: 0 0 10px #8eeffe;
 }

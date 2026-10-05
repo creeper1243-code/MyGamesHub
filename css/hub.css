@@ -1,6 +1,7 @@
 .menu {
     background-color: black;
-    height: 8vh
+    height: 8vh;
+    text-align: center;
 }
 
 .games-container {
@@ -9,5 +10,42 @@
 }
 
 .menu-item {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 8vh;
+    margin: 0 30px;
+    display: inline-block;
+    transition: 0.2s;
+}
 
+.menu-item:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 5px #00a80d;
+}
+
+.game-item {
+    width: 400px;
+    height: 600px;
+    float: left;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item1 {
+    background-image: url("../img/gorilla-tag.jpg");
+}
+
+.item2 {
+    background-image: url("../img/Roblox.png");
+    background-size: contain;
+}
+
+.item3 {
+    background-image: url("../img/MCraft.PNG");
+}
+
+.item4 {
+    background-image: url("../img/Rocket league.jpg");
 }

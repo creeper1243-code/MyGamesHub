@@ -24,6 +24,14 @@
     text-shadow: 0 0 5px #00a80d;
 }
 
+.game-items {
+    display: block;
+    height: 100%;
+    width: fit-content;
+    margin: auto;
+    padding-top: 40px
+}
+
 .game-item {
     width: 400px;
     height: 600px;
@@ -31,6 +39,17 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    list-style-type: none;
+    margin: 20px;
+    box-shadow: 0 5px 20px black;
+    border-radius: 20px;
+    filter: brightness(0.4) opacity(.5);
+    transition: 0.5s;
+}
+
+.game-item:hover {
+    filter: none;
+    transform: scale(1.02)
 }
 
 .item1 {
@@ -38,8 +57,7 @@
 }
 
 .item2 {
-    background-image: url("../img/Roblox.png");
-    background-size: contain;
+    background-image: url("../img/9bd8f03a518ee5a74e2b490088223f2e.jpg");
 }
 
 .item3 {
